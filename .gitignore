@@ -1,0 +1,62 @@
+# Compiled and executable files
+*.o
+*.a
+*.so
+*.exe
+*.elf
+*.bin
+*.hex
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+venv/
+env/
+.pytest_cache/
+
+# Build artifacts
+build/
+out/
+*.o
+*.d
+
+# CubeIDE and STM32 tools
+.metadata/
+Remote Systems*
+*.launch
+
+# PX4 and autopilot firmware
+.git
+firmware/px4/.git
+
+# ROS
+devel/
+install/
+build/
+
+# Hardware CAD
+*.step
+*.stp
+*.iges
+*.igs
+*~
+*.FCStd1
+
+# Logs and temporary files
+*.log
+*.tmp
+*.backup
+
+# Simulation
+*.world
+*.sdf~
